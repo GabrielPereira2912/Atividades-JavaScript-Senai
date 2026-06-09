@@ -1,31 +1,19 @@
 let numeros = []
 let posicoes = []
 
-for (i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++){
     num = Number(prompt("Digite um numero"))
     numeros.push(num)
 }
 
-let maior = Math.max(...numeros)
-let menor = Math.min(...numeros)
+numeros.sort((a, b) => a - b)
 
-let posMaior
-let posMenor
+alert(numeros)
 
-numeros.forEach((numero,i) => {
-    if (numero == maior){
-        posMaior = i
-        posicoes.push(posMaior)
-    }
+let posMaior = numeros[4]
+let posMenor = numeros[0]
 
-    else if (numero == menor){
-        posMenor = i
-        posicoes.push(posMenor)
-    }
-});
+numeros[0] = posMaior
+numeros[4] = posMenor
 
-let temp = posMaior
-posMaior = posMenor
-posMenor = temp
-
-alert(posicoes)
+alert(numeros)
