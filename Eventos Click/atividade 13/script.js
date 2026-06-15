@@ -1,0 +1,3 @@
+function scanner(){
+    alert("scanneando...")
+}

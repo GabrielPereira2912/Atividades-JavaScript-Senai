@@ -1,0 +1,3 @@
+function triste(){
+    alert(":(")
+}
