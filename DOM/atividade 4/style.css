@@ -1,0 +1,12 @@
+.quadrados{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}

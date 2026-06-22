@@ -1,0 +1,29 @@
+#quadrado{
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+}
+
+#circulo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.formas{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
