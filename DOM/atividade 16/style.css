@@ -1,0 +1,9 @@
+#retangulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15rem;
+    height: 7rem;
+    background-color: white;
+}

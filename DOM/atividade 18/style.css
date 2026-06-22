@@ -1,0 +1,25 @@
+#caixas{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    width: 10rem;
+    height: 10rem;
+    background-color: grey;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+button{
+    width: 10rem;
+    height: 5rem;
+}
